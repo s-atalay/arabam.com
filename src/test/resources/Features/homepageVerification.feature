@@ -31,7 +31,7 @@ Feature: Home page verification
 
   Scenario: "Ücretsiz İlan Ver" button visibility and functionality verification
     * Verify that the Ücretsiz İlan Ver button is visible
-    * Move the mouse over the "Ücretsiz İlan Ver" button
+    * Move the mouse over the Ücretsiz İlan Ver button
     * Verify that the Ücretsiz İlan Ver button and Trink Sat button are visible
 
   Scenario: Vitrin section visibility and functionality verification

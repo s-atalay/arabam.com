@@ -1,18 +1,12 @@
 package Utilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import hooks.Base;
-
 import java.time.Duration;
-
 import java.util.concurrent.TimeUnit;
-
-
 public class Driver {
 
     private Driver(){}
@@ -43,12 +37,6 @@ public class Driver {
 
     public static void quitDriver(){
         driver.quit();
-        if (driver!=null){
-            driver=null;
-        }
-    }
-    public static void closeDriver(){
-        driver.close();
         if (driver!=null){
             driver=null;
         }

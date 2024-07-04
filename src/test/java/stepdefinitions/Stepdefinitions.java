@@ -71,8 +71,8 @@ public class Stepdefinitions extends Base {
     public void click_on_the_button(String buttonText) {
         homePage.girisYapUyeOlLink(buttonText).click();
     }
-    @Given("Move the mouse over the {string} button")
-    public void move_the_mouse_over_the_button(String button) {
+    @Given("Move the mouse over the Ücretsiz İlan Ver button")
+    public void move_the_mouse_over_the_ücretsiz_ilan_ver_button() {
         actions.moveToElement(homePage.ücretsizİlanVerDdm).perform();
         ReusableMethods.wait(5);
     }
